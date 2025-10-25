@@ -1,75 +1,90 @@
-# OSX
-#
-.DS_Store
-
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-**/.xcode.env.local
-
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
-*.iml
-*.hprof
-.cxx/
-*.keystore
-!debug.keystore
-.kotlin/
-
-# node.js
-#
+# React Native
 node_modules/
 npm-debug.log
+yarn-debug.log
 yarn-error.log
+package-lock.json
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
+# Logs
+*.log
+logs
+*.tmp
 
-**/fastlane/report.xml
-**/fastlane/Preview.html
-**/fastlane/screenshots
-**/fastlane/test_output
-
-# Bundle artifact
+# Metro
+.expo/
+.expo-shared/
+.expo-settings.json
+.bundle/
 *.jsbundle
 
-# Ruby / CocoaPods
-**/Pods/
-/vendor/bundle/
+# Build outputs
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/.cxx/
+android/.project
+android/.settings/
+android/app/.cxx/
+android/.externalNativeBuild/
 
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/.xcworkspace/
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcuserstate
+ios/*.xcuserdata/
+ios/.DS_Store
 
-# testing
-/coverage
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
 
-# Yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.nfs*
+
+# Android Studio
+*.iml
+.gradle/
+local.properties
+.idea/
+captures/
+.cxx/
+*.apk
+*.ap_
+*.aab
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Misc
+coverage/
+babel.config.js
+metro.config.js
+jest.config.js
+*.keystore
+*.jks
+*.p8
+*.pem
+*.key
+*.mobileprovision
